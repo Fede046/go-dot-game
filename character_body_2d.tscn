@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://c56kr7u1ap164"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_efc68"]
+animations = [{
+"frames": [],
+"loop": 1,
+"name": &"idle_down",
+"speed": 5.0
+}]
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=654650242]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=886309376]
+sprite_frames = SubResource("SpriteFrames_efc68")
+animation = &"idle_down"
